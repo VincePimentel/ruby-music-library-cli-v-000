@@ -23,10 +23,10 @@ class Song
 
   def self.create(name)
     self.new(name).save
-    return self
+    #return self
   end
   #END OF CLASS METHODS
 
-  
+
 
 end
