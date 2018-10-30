@@ -19,6 +19,7 @@ class Song
 
   def self.create(name)
     Song.new(name).save
+    self
   end
   #END OF CLASS METHODS
 
