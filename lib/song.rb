@@ -28,4 +28,8 @@ class Song
     @@all << self
   end
 
+  def artist
+    self.artist
+  end
+
 end
