@@ -8,10 +8,6 @@ class Song
     @@all << self
   end
 
-  def save
-    @@all << self
-  end
-
   #START OF CLASS METHODS
   def self.all
     @@all
@@ -23,10 +19,12 @@ class Song
 
   def self.create(name)
     self.new(name).save
-    #return self
+    return self
   end
   #END OF CLASS METHODS
 
-
+  def save
+    @@all << self
+  end
 
 end
