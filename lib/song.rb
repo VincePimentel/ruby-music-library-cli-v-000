@@ -3,7 +3,7 @@ class Song
 
   @@all = Array.new
 
-  def initialize(name)
+  def initialize(name, artist)
     @name = name
     @@all << self
   end
