@@ -18,8 +18,8 @@ class Song
   end
 
   def self.create(name)
-    Song.new(name).save
-    self
+    self.new(name).save
+    return self
   end
   #END OF CLASS METHODS
 
