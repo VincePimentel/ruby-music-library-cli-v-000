@@ -30,7 +30,7 @@ class Song
   end
 
   def artist
-    self.artist if !self.artist.nil?
+    #self.artist if !self.artist.nil?
   end
 
 end
