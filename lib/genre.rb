@@ -6,6 +6,7 @@ class Genre
   def initialize(name)
     @name = name
     @songs = Array.new
+    @artists = Array.new
     @@all << self
   end
 
