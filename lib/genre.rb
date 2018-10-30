@@ -29,8 +29,8 @@ class Genre
     @@all << self
   end
 
-  def artists
-    @artists.uniq
-  end
+  # def artists
+  #   @artists.uniq
+  # end
 
 end
