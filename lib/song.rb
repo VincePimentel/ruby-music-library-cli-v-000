@@ -17,8 +17,8 @@ class Song
     @@all.clear
   end
 
-  def self.create(name)
-    self.new(name).save
+  def self.create#(name)
+    self.new.save#(name).save
     return self
   end
   #END OF CLASS METHODS
