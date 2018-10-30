@@ -18,11 +18,12 @@ class Artist
 
   def self.create(name)
     self.new(name).save
+    return self
   end
 
   def save
     @@all << self
   end
 
-  
+
 end
