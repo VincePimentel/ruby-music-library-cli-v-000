@@ -16,6 +16,10 @@ class Song
   def self.destroy_all
     @@all.clear
   end
+
+  def self.create
+
+  end
   #END OF CLASS METHODS
 
   def save
