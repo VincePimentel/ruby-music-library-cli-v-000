@@ -8,6 +8,7 @@ class Artist
     @@all << self
   end
 
+  #START OF CLASS METHODS
   def self.all
     @@all
   end
@@ -20,6 +21,7 @@ class Artist
     self.new(name).save
     return self
   end
+  #END OF CLASS METHODS
 
   def save
     @@all << self
